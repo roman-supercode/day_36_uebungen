@@ -8,7 +8,7 @@ function onClickRemove(event) {
     event.preventDefault();
 
     const selectIndex = mySelectElement.selectedIndex;
-    console.log(selectIndex);
+    // console.log(selectIndex);
 
     // 1. Methode
     mySelectElement.remove(selectIndex);

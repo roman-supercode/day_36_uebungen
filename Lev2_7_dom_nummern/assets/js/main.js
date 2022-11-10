@@ -21,5 +21,6 @@ button.addEventListener("click", () => {
     } else {
         pChild.classList.add("rechteck");
     }
+
     counter++;
 });

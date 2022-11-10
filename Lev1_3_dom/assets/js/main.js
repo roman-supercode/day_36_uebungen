@@ -1,13 +1,13 @@
 // Schreibe eine Funktion, die beim Anklicken der Buttons das first- oder last-ElementChild anzeigt. Schau dir das Ergebnis in der Ergebnisvorschau an.
 
 const listElement = document.getElementById("myList");
-console.log(listElement);
+// console.log(listElement);
 
 const buttons = document.querySelectorAll("button");
-console.log(buttons);
+// console.log(buttons);
 
 const output = document.querySelector("output");
-console.log(output);
+// console.log(output);
 
 // for..of-loop
 for (let button of buttons) {
